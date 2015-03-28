@@ -1,0 +1,14 @@
+# List of possible TranforMap point of interest classes
+
+- Werkstatt 
+
+- Q2015628 Open Space
+  - Q1032372 Hackerspace
+  - Q1390062 Fablab
+
+- Q18587469 Residential Community
+  - Q2373919 Intentional Community
+    - Q517760 Kommune
+    - Q295472 Ökodorf
+
+

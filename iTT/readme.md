@@ -10,6 +10,9 @@ Q-Numbers are references to Wikidata (visit https://www.wikidata.org/wiki/<QNumb
 
 ## Contents
 * [Topics](topics.txt) 
+* [Relations](relation.txt)
+* [Collection of possible POI classes](poi.txt)
+* [Data related stuff, item classes, property types, properties](data.txt)
 
 ## Contribute
 

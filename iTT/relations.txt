@@ -1,0 +1,9 @@
+- Relations
+  - provides
+    - provides only
+  - offers experience
+  - studies
+  - has topic
+  - develops
+  - supports
+  - member of

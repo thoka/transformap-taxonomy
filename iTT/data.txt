@@ -1,0 +1,103 @@
+# Data related stuff, item classes, property types, properties
+ 
+- Data Items
+  .contact-data
+  .location
+  .coverage
+  .languages
+  .status
+  .status-history
+  .status
+
+  - POI
+
+  - Services
+
+  - Individuals
+    .where-to-find
+    .relations
+
+  - Networks of People
+    .contact-data
+    .status
+
+  - Events (=Objects with a date)
+    .date-range
+    .topics
+    .location
+    .supported-languages
+    - People Meetings
+      - Conferences
+      - Cultural Events
+        - Festivals 
+        - Recitals / Lesungen / Konzerte 
+        - Ausstellungen / Exhibitions
+    - Learning Opportunities 
+        
+  - Technology
+    - Norms
+    - Software
+    - Knowledge collection
+
+  - Services
+    .url
+    .contact
+    - Mapping Services
+    - Mapping Tools
+
+  - Media
+    .url
+    .coverage
+    .topics
+    .author(s)
+    .published date
+    .format: artice, report, essay, interview
+    - Text
+    - Audio
+    - Video
+
+- Data Types
+  - URL
+  
+  - Point
+    .lat
+    .lon
+  
+  - Location=Point+.acurancy
+  
+  - Adress
+  
+  - Time
+  
+  - Timerange
+    .start:Time
+    .end:Time
+    .description of recurrence
+  
+  - Region
+    something describing an area on earth
+    - Region-Circle
+    - Region-Polygon
+    - Region-Rectange
+  
+  - Language
+    language code from wikipedia
+  
+  - Relation: [ (Relation-Type,Topic) ]
+    a relation is a named link to any other object
+
+  - Status: planed | in development | alpha | running / in print | paused / out of print | stopped / abandoned
+
+- Properties
+  
+  - coverage: [Region]
+
+  - supported languages: [Language]
+  
+  - contact data
+    .web site: URL
+    .contact data: URL
+    .proxy contact: URL
+    .address: URL
+
+
