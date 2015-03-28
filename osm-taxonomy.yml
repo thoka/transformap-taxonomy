@@ -1,0 +1,408 @@
+fulfils_needs: 
+label: 
+  en: "Needs fulfilled by a community"
+  de: "Erfüllte Bedürfnisse"
+description: 
+  en: "We all have needs. We need food and shelter, we need mobility and we need to communicate with others. Here is a list of various needs. You will find both: things that directly satisfy your needs as well as people who care for providing these things and for running needs-oriented projects"
+  de: "Wir alle haben Bedürfnisse. Wir müssen essen und trinken, wir suchen Schutz, brauchen Wissen und Mobilität. Hier findet sich eine Liste dieser Bedürfnisse."
+items: 
+  - transformap:key: "food"
+    osm:key: "fulfils_needs:food"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: food"
+      de: "Bietet: Essen"
+    description: 
+      en: ""
+      de: ""
+    osm:objects: 
+      - 
+        amenity: "pub"
+        food: "yes"
+      - 
+        amenity: "bar"
+        food: "yes"
+      - 
+        amenity: "cafe"
+        food: "yes"
+      - 
+        amenity: "biergarten"
+        food: "yes"
+      - 
+        amenity: "restaurant"
+      - 
+        amenity: "fast_food"
+      - 
+        amenity: "marketplace"
+      - 
+        amenity: "social_facility"
+        social_facility: "food_bank"
+      - 
+        shop: "butcher"
+      - 
+        shop: "convenience"
+      - 
+        shop: "bakery"
+      - 
+        shop: "seafood"
+      - 
+        shop: "deli"
+      - 
+        shop: "farm"
+      - 
+        shop: "supermarket"
+      - 
+        leisure: "garden"
+        description: "Gemeinschaftsgarten"
+      - 
+        landuse: "farm"
+      - 
+        landuse: "farmland"
+      - 
+        landuse: "farmyard"
+      - 
+        landuse: "orchard"
+      - 
+        landuse: "vineyard"
+ 
+  - 
+    transformap:key: "water"
+    osm:key: "fulfils_needs:water"
+    osm:values: 
+      - "yes"
+    
+    label: 
+      en: "provides: water"
+      de: "Bietet: Wasser"
+    description: 
+      en: ""
+      de: ""
+    osm:objects: 
+      - 
+        amenity: "drinking_water"
+      - 
+        shop: "butcher"
+      - 
+        leisure: "garden"
+        description: "Gemeinschaftsgarten"
+  - 
+    transformap:key: "participation"
+    osm:key: "fulfils_needs:participation"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: contribute & participate "
+      de: "Bietet: beitragen & mitmachen"
+    description: 
+      en: "Here is a place, where your contribution is needed. You can share your skills, contribute to a project, initiate activities, or deliberate on public issues."
+      de: "Beitragen erwünscht! Hier kannst Du Dich und Deine Fähigkeiten einbringen, zu einem Projekt beitragen, ein solches initiieren, oder Dich an Debatten beteiligen,  die uns alle angehen."
+    osm:objects: 
+      - 
+        amenity: "hackerspace"
+      - 
+        leisure: "hackerspace"
+      - 
+        club: "*"
+  - 
+    transformap:key: "land"
+    osm:key: "fulfils_needs:land"
+    osm:values: 
+      - "rural"
+      - "urban"
+      - "rurban"
+    label: 
+      en: "provides: land"
+      de: "Bietet: Land"
+    description: 
+      en: "This is about land - the land we all need to find shelter and/or to work on."
+      de: "Wir brauchen und nutzen Land. Zum bewohnen und zum bearbeiten."
+    osm:objects: 
+      - 
+        landuse: "greenfield"
+      - 
+        landuse: "brownfield"
+  - 
+    transformap:key: "health"
+    osm:key: "fulfils_needs:health"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: health"
+      de: "Bietet: Gesundheit"
+    description: 
+      en: "Here you find what keeps and makes us healthy."
+      de: "Hier steht das, was uns gesund hält oder macht."
+    osm:objects: 
+      - 
+        amenity: "hospital"
+      - 
+        amenity: "clinic"
+      - 
+        amenity: "doctors"
+      - 
+        amenity: "dentist"
+      - 
+        amenity: "veterinary"
+      - 
+        amenity: "nursing_home"
+      - 
+        amenity: "social_facilty"
+        social_facilty: "group_home"
+        social_facilty:for: "senior"
+      - 
+        amenity: "pharmacy"
+      - 
+        amenity: "baby_hatch"
+      - 
+        emergency: "defibrillator"
+      - 
+        health_facility:type: "counselling_centre"
+  - 
+    transformap:key: "culture"
+    osm:key: "fulfils_needs:culture"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: culture"
+      de: "Bietet: Kultur"
+    description: 
+      en: "Here you find cultural events or free spaces to organize an event or to perform."
+      de: "Hier findest du kulturelle Veranstaltungen oder offene Räume um selbst Veranstaltungen zu organisieren. Du kannst dich auch selbst künstlerisch betätigen."
+    osm:objects: 
+      - 
+        amenity: "cinema"
+      - 
+        amenity: "theatre"
+      - 
+        amenity: "arts_centre"
+      - 
+        amenity: "studio"
+      - 
+        tourism: "museum"
+      - 
+        tourism: "artwork"
+  - 
+    transformap:key: "sense_of_security"
+    osm:key: "fulfils_needs:sense_of_security"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: safety"
+      de: "Bietet: Schutz"
+    description: 
+      en: "Here you find places and people that provide a sense of security, support and safety for a short period of time."
+      de: "Orte und Menschen, die Schutz, Geborgenheit und Unterstützung in unsicheren Lebenslagen bieten."
+    osm:objects: 
+      - 
+        amenity: "social_facility"
+        social_facility: "shelter"
+  - 
+    transformap:key: "housing"
+    osm:key: "fulfils_needs:housing"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: housing"
+      de: "Bietet: Unterkunft"
+    description: 
+      en: "Here you find shelter and/or places you can feel at home - for a short time or permanently."
+      de: "Hier findest Du ein Dach überm Kopf, zeitweise oder dauerhaft."
+    osm:objects: 
+      - 
+        amenity: "dormitory"
+      - 
+        amenity: "social_facility"
+        social_facility: "group_home"
+      - 
+        amenity: "social_facility"
+        social_facility: "assisted_living"
+  - 
+    transformap:key: "open_space"
+    osm:key: "fulfils_needs:open_space"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: open space"
+      de: "Bietet: Freiraum"
+    description: 
+      en: "Here you find free spaces to meet, hang out, do whatever you want or express yourself."
+      de: "Hier ist ein offener Raum, um sich zu treffen, etwas zu organisieren oder wonach immer der Sinn steht."
+    osm:objects: 
+      - 
+        amenity: "null"
+      - 
+        a: "*"
+  - 
+    transformap:key: "objects_of_utility"
+    osm:key: "fulfils_needs:objects_of_utility"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: objects of utility"
+      de: "Bietet: Gebrauchsgegenstände"
+    description: 
+      en: "Here you can get or borrow tools and other things."
+      de: "Hier gibt es unterschiedliche Gebrauchsgegenstände."
+    osm:objects: 
+      - 
+        service:bicycle:tools: "yes"
+      - 
+        leisure: "hackerspace"
+  - 
+    transformap:key: "clothes"
+    osm:key: "fulfils_needs:clothes"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: clothes"
+      de: "Bietet: Kleidung"
+    description: 
+      en: "Here you can find clothes of all kinds."
+      de: "Hier bekommst Du Kleidung."
+    osm:objects: 
+      - 
+        shop: "clothes"
+      - 
+        shop: "secondhand"
+  - 
+    transformap:key: "learning_opportunities"
+    osm:key: "fulfils_needs:learning_opportunities"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: knowledge&skills"
+      de: "Bietet: Wissen"
+    description: 
+      en: "Here is a space where knowledge, skills and insights are shared. A space where people learn and research and where you can engage heart, hand and mind."
+      de: "Hier ist ein Ort, wo Wissen geteilt, gemeinsam gelernt und geforscht wird. Hier kannst Du lernen, was Du schon immer gern lernen wolltest. Kopf und Hand trainieren!"
+    osm:objects: 
+      - 
+        amenity: "library"
+      - 
+        amenity: "university"
+      - 
+        amenity: "school"
+  - 
+    transformap:key: "energy"
+    osm:key: "fulfils_needs:energy"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: energy"
+      de: "Bietet: Energie"
+    description: 
+      en: "Electricity, heating, transportation - all of them require energy. Here you find projects, ideas and places, where this energy is generated."
+      de: "Strom, Wärme und Fortbewegung. Für alles braucht mensch Energie. Hier gibt es Projekte, Ideen und Standorte, die diese Energie erzeugen."
+    osm:objects: 
+      - 
+        power: "generator"
+  - 
+    transformap:key: "supportive_relationships"
+    osm:key: "fulfils_needs:supportive_relationships"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: supportive relationships"
+      de: "Bietet: stärkende Sozialkontakte"
+    description: 
+      en: "Here you will find a person, a group of people or a network that offers support and empowerment."
+      de: "Hier kann man zusammensein, Aktivitäten und Erfahrungen erleben, die allein nicht möglich sind oder weniger Freude machen."
+    osm:objects: 
+      - 
+        amenity: "social_facility"
+        social_facility: "outreach"
+  - 
+    transformap:key: "participation"
+    osm:key: "fulfils_needs:"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: contribute & participate"
+      de: "Bietet: beitragen & mitmachen"
+    description: 
+      en: "Here is a place, where your contribution is needed. You can share your skills, contribute to a project, initiate activities, or deliberate on public issues."
+      de: "Beitragen erwünscht! Hier kannst Du Dich und Deine Fähigkeiten einbringen, zu einem Projekt beitragen, ein solches initiieren, oder Dich an Debatten beteiligen, die uns alle angehen."
+    osm:objects: 
+      - 
+        leisure: "hackerspace"
+      - 
+        club: "*"
+  - 
+    transformap:key: "spirituality"
+    osm:key: "fulfils_needs:spirituality"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: spirituality"
+      de: "Bietet: Spiritualität"
+    description: 
+      en: "places of spirituality"
+      de: "Orte der Spiritualität"
+    osm:objects: 
+      - 
+        amenity: "place_of_worship"
+      - 
+        amenity: "monastery"
+      - 
+        historic: "wayside_shrine"
+      - 
+        historic: "wayside_cross"
+      - 
+        historic: "wayside_chapel"
+  - 
+    transformap:key: "communication"
+    osm:key: "fulfils_needs:communication"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: means of communication"
+      de: "Bietet: Kommunikationsmöglichkeit"
+    description: 
+      en: "Here you can find communication infrastructure"
+      de: "Ein Ort, der Kommunikationsinfrastruktur bereitstellt."
+    osm:objects: 
+      - 
+        amenity: "telephone"
+      - 
+        internet_access: "yes"
+      - 
+        internet_access: "lan"
+      - 
+        internet_access: "wlan"
+      - 
+        internet_access: "terminal"
+      - 
+        shop: "mobile_phone"
+      - 
+        man_made: "mast"
+        tower:type: "communication"
+      - 
+        man_made: "communications_tower"
+      - 
+        emergency: "phone"
+  - 
+    transformap:key: "meta:air"
+    osm:key: "fulfils_needs:meta:air"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "concerns: air"
+      de: "Kümmert sich um: Luft"
+    description: 
+      en: ""
+      de: ""
+    osm:objects: []
+  - 
+    transformap:key: "advise"
+    osm:key: "fulfils_needs:advise"
+    osm:values: 
+      - "yes"
+    label: 
+      en: "provides: advise"
+      de: "Bietet: Beratung"
+    description: 
+      en: ""
+      de: ""
+    osm:objects: []
+

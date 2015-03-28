@@ -1,0 +1,116 @@
+# iTT - inofficial Transformap Taxonomy
+# contact: thomas.kalka@gmail.com
+# contributions welcome, mail me, if you changed something
+#
+# Q-Numbers are References to Wikidata
+# visit https://www.wikidata.org/wiki/<QNumber>
+#
+# Benefits of using Wikidate-References:
+#   availability of translations in every language supported by wikipedia
+#   every term is backed up by a number of multilingual explanations
+#
+
+- Q9580314 Umwelt/gaja/environment
+   - Q7391292 Luft / air
+     - Q2364111 Luftqualität
+     - Q3230 atmosphere of Earth / Erdatmosphäre
+   - Q283 water
+     - Q15324 Gewässer
+        - Q165 Meer
+   - Q3 Life
+     - microorganisms
+     - plant life
+     - animal life
+
+- Q190258 Bedürfnisse | Q1550467 basic human needs
+  -  Q2602563 Lebensmittel 
+     - Q7892 drinking water 
+     - Q2095 food / essen 
+
+  - Q7981051 Wohlergehen / well-being   
+    - Q1497087 Geborgenheit 
+    - Q4338318 awareness / Aufmerksamkeit
+    - Q28510 Respekt
+    - Wertschätzung
+    - support / Q1643184 Hilfe / Unterstützung
+    - Q488085 Freundlichkeit
+    - Q1077064 Wohltätigkeit
+    - community
+    - Fürsorge
+    - health
+    - Schutz / protection
+
+  - support
+    - healing
+    - medical help
+    - advise
+    - Q380962 Kooperation
+
+  - culture
+    - learning possibilities
+    - spirituality
+    - arts
+      - music
+
+  - usable space
+    - housing / shelter / Dach überm Kopf haben / Wohnen
+    - workspace
+    - land
+      - land
+      - farmland
+      - buildland
+
+  - clothes
+
+  - infrastructure
+    - communication
+    - physical tools   
+    - energy
+    - knowledge 
+    - relationships / Kontakt supportive_relationships
+
+- Relation Types
+  - provides
+  - offers experience
+  - studies
+  - has topic
+
+- Data related
+  
+  - Data Items
+    # a relation is (Relation-Type, Object) 
+    - Services:
+       contact-data
+       location?, coverage, supported-languages,  coverage, status (and status history), relations 
+
+    - Individuals: contact-data, regular places, relations
+
+    - Networks of People, contact-data, status (and status history)
+
+    - Events (=Objects with a date)
+       - People Meetings
+         - Conferences
+         - Cultural Events
+           - Festivals 
+           - Recitals / Lesungen / Konzerte 
+           - Ausstellungen / Exhibitions
+       - Learning Opportunities 
+          
+    - Technology
+      - Norms
+      - Software
+      - Knowledge collection
+
+    - Services
+  
+  - Properties
+
+
+
+
+  
+
+
+
+
+
