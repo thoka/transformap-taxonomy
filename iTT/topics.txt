@@ -1,0 +1,91 @@
+- Q9580314 Umwelt/gaja/environment
+   - Q7391292 Luft / air
+     - Q2364111 Luftqualität
+     - Q3230 atmosphere of Earth / Erdatmosphäre
+   - Q283 water
+     - Q15324 Gewässer
+        - Q165 Meer
+   - Q3 Life
+     - microorganisms
+     - plant life
+     - animal life
+
+- Q190258 Bedürfnisse | Q1550467 basic human needs
+  - Q2602563 Lebensmittel 
+     - Q7892 drinking water 
+     - Q2095 food / essen 
+       - vegan food
+       - biological food
+       - regional food
+
+  - Q7981051 Wohlergehen / well-being   
+
+    - Q1497087 Geborgenheit 
+
+    - Tugenden
+      - Q4338318 awareness / Aufmerksamkeit
+      - Q1186677 Demut
+      - Bedachtsamkeit    
+      - Q15304496 Geduld
+      - Hilfsbereitschaft
+      - Q488085 Freundlichkeit
+      - Q1077064 Wohltätigkeit
+
+    - Q853725 Beziehungen    
+      - Q28510 Respekt
+      - Wertschätzung
+        - Gleichwürdigkeit
+      
+    - support / Q1643184 Hilfe / Unterstützung
+      - Fürsorge
+      - Betreuung  
+         - Betreuung im Krankheisfall
+         - Betreuung von Kindern
+         - Betreuung von Alten
+
+    - health
+
+    - Schutz / protection
+
+    - Einbezogensein / Partizipation
+      - community
+      - Q535347 Transparenz
+      - Q15822547 Kameradschaft
+
+  - support
+    - healing
+    - medical help
+    - advise
+    - Q380962 Kooperation
+
+  - culture
+    - learning possibilities
+    - spirituality
+    - arts
+      - music
+
+  - usable space
+    - housing / shelter / Dach überm Kopf haben / Wohnen
+    - workspace
+    - land
+      - land
+      - farmland
+      - buildland
+
+  - clothes
+
+  - infrastructure
+    - communication
+    - physical tools   
+    - energy
+    - knowledge 
+    - relationships / Kontakt supportive_relationships
+
+- Technology
+  - Gardening
+  - Woodworking
+  - Metallbearbeitung
+  - Elektronik
+  - Mikroelektronik
+  - Robotik
+    - CNC-Maschinen
