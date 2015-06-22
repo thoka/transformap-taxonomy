@@ -5,10 +5,12 @@
   - Q294297 öffentlicher Bücherschrank
   - CSA Lieferstation
 
-- Lernorte
-    - Schulen
+- Q20197961 Lernorte
+    - Q3914 Schulen
       - Demokratische Schulen
       - neo-Montessori-Schulen
+        - Q422919 de2:aktive_Schulen
+
      - Freinet Schulen
 
     - Malort
@@ -16,33 +18,32 @@
     - Museen
 
     - Vorschungseinrichtungen
+      - Q483242 de:Labor
 
     - Erwachsenenbildung
+      - Erwachsenenschule
 
     - Q20190233 Malort
 
     - Spielort
 
 
-- Places of Cooperation
+- Places of cooperation / Units of production
 
     - Q869457 en:Coworking
 
     - Q656720 de2:Werkstätten
-        - Q1032372 en2:Hackerspaces
-        - Q1390062 en:Fablab
-        - Q15847167 de:Selbsthilfewerkstatt
-
-- Units of production
-  - Werkstätten
-     - Q1320613 en:Joiner's workshop de:Tischlerei
-     - Q203605 de:Zimmerei
-  - Food producing locations
-    - plant growing
-      - Farm
-      - urban Garden
-    - animal growing
-
+      - Q1032372 en2:Hackerspaces
+      - Q1390062 en:Fablab
+      - Q15847167 de:Selbsthilfewerkstatt
+      - Q1320613 en:Joiner's workshop de:Tischlerei
+      - Q203605 de:Zimmerei
+    - Food producing locations
+      - plant growing
+        - Gärtnerei
+        - urban Garden
+      - animal growing
+        - Farm
 
 - Q18587469 Residential Community
   - Q2373919 Intentional Community
@@ -53,7 +54,6 @@
 - Places of termporal accomodation
 
   - Q1558858 en:boarding house, de:Gästehaus, de:Gasthof
-
   - Q19309798 Tagungshaus
 
 
