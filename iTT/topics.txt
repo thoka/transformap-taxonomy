@@ -8,37 +8,45 @@
    - Q3 Life
      - microorganisms
      - plant life
+       - Erhalt der Artenvielfalt
+         - Erhalt alter Apfelsorten
      - animal life
+     - Q172645 humus
+     - Q7918273 en:vegan de:vegan
 
 - Q190258 Bedürfnisse | Q1550467 basic human needs
-  - Q2602563 Lebensmittel 
-     - Q7892 drinking water 
-     - Q2095 food / essen 
+  - Q2602563 Lebensmittel
+     - Q7892 drinking water
+     - Q2095 food / essen
        - vegan food
        - biological food
        - regional food
+       - Q335823 Slow_food
 
-  - Q7981051 Wohlergehen / well-being   
+  - Lebensauffassungen
+    - Q83364 de:Vegetarismus
+    - Q7918273 en:veganism
 
-    - Q1497087 Geborgenheit 
+  - Q7981051 de:Wohlergehen en:well-being
 
+    - Q1497087 Geborgenheit
     - Tugenden
-      - Q4338318 awareness / Aufmerksamkeit
+      - Q4338318 en:awareness de:Aufmerksamkeit
       - Q1186677 Demut
-      - Bedachtsamkeit    
+      - Bedachtsamkeit
       - Q15304496 Geduld
       - Hilfsbereitschaft
       - Q488085 Freundlichkeit
       - Q1077064 Wohltätigkeit
 
-    - Q853725 Beziehungen    
+    - Q853725 Beziehungen
       - Q28510 Respekt
       - Wertschätzung
         - Gleichwürdigkeit
-      
+
     - support / Q1643184 Hilfe / Unterstützung
       - Fürsorge
-      - Betreuung  
+      - Betreuung
          - Betreuung im Krankheisfall
          - Betreuung von Kindern
          - Betreuung von Alten
@@ -48,9 +56,12 @@
     - Schutz / protection
 
     - Einbezogensein / Partizipation
-      - community
+      - Q177634 Gemeinschaft community
       - Q535347 Transparenz
       - Q15822547 Kameradschaft
+
+    - Q454 Frieden / Peace
+
 
   - support
     - healing
@@ -67,25 +78,75 @@
   - usable space
     - housing / shelter / Dach überm Kopf haben / Wohnen
     - workspace
+       - Q656720 de:Werkstatt
+       -
+    - Q2015628 de:offener_Tätigkeitsraum
     - land
       - land
       - farmland
       - buildland
 
+
   - clothes
 
   - infrastructure
-    - communication
-    - physical tools   
+    - Q20197902 communication
+    - physical tools
     - energy
-    - knowledge 
+      - P618 Energiequellen
+    - knowledge
     - relationships / Kontakt supportive_relationships
 
+- Communication
+  - Q1420622 de:Fishbowl
+  - Decision Making
+    - Q202722 de:Konsens
+    - Q921550 Open Space
+
 - Technology
-  - Gardening
-  - Woodworking
-  - Metallbearbeitung
-  - Elektronik
-  - Mikroelektronik
-  - Robotik
-    - CNC-Maschinen
+  - Energy
+    - Solarenergie
+    - Wasserkraft
+    - Windkraft
+    - Wasserstoff
+      - Q2551748 Wasserstoffantrieb
+
+  - Q7590 Transport
+    - Q11442 Fahrrad
+    - Lastenrad
+         - Q2904311 dreiräderiges Lastenrad
+    - Q1392524 Fahrradanhänger
+    - Q595658 Veloziped
+    - Q924724 Elektrorad
+
+  - Q11765978 Lagerhaltung
+
+
+  - en:Learning / Q352842 en:Teaching de:Lehren
+    - Q1899632 Lernmethoden
+    - Q1813494 Lehrmethoden
+    - Q190218 Montessori-Pädagogik
+    - Q1003804 en:Freinet_pedagogy
+    - Q814229 Befreiungspädagogik
+    - Q1000032 Unschooling
+    - Q18202262 de:Nichtdirektive_Erziehung
+    - Q356040 Jigsaw Teaching Technique / Gruppenpuzzle
+    - Vorbereitete Umgebung
+
+  - Q124946 en:Gardening
+    - soil regeneration
+    - Q1639207 de:Renaturierung
+    - Q427249 de:Solidarische_Landwirtschaft
+
+  - Produktionstechnik
+    - Q816871 en:Woodworking
+    - Q953045 de:Metallbearbeitung
+    - Q11650 de:Elektronik
+      - Q175403 de:Mikroelektronik
+    - Q170978 de:Robotik
+      - de:CNC-Maschinen
+
+
+- Lokal source
+- Q2362129 de:Subsistenz
+  - Q1341794 de:Selbstversorgung

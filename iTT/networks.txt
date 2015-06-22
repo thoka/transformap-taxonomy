@@ -1,0 +1,9 @@
+- networks
+  - local networks
+    - Tauschringe
+  
+  - thematic networks
+    - Klimawandel-Initiativen
+
+
+
